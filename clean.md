@@ -1,3 +1,30 @@
+## SOLID Principles
+
+SOLID is an acronym representing five design principles that promote maintainable and scalable code. They are fundamental principles in object-oriented programming:
+
+### 1. Single Responsibility Principle (SRP)
+A class should have only one reason to change, meaning it should have a single responsibility or function. This principle encourages separation of concerns.
+
+### 2. Open-Closed Principle (OCP)
+Software entities (classes, modules, functions) should be open for extension but closed for modification. This encourages the use of inheritance and interfaces for adding new functionality.
+
+### 3. Liskov Substitution Principle (LSP)
+Subtypes must be substitutable for their base types without altering the correctness of the program. In other words, derived classes should extend the behavior of their base classes without changing it.
+
+### 4. Interface Segregation Principle (ISP)
+Clients should not be forced to depend on interfaces they do not use. This principle advocates creating smaller and more specific interfaces instead of one large interface.
+
+### 5. Dependency Inversion Principle (DIP)
+High-level modules should not depend on low-level modules; both should depend on abstractions. This principle encourages the use of dependency injection and inversion of control containers.
+
+## Design Patterns
+
+Design patterns are reusable solutions to common software design problems. Understanding and applying design patterns can lead to more maintainable, scalable, and understandable code. Some common design patterns in Android development include:
+
+### 1. MVVM (Model-View-ViewModel)
+A design pattern that separates the UI (View) from the data and logic (Model) by introducing a ViewModel to manage the presentation logic. It's widely used in Android development to achieve separation of concerns.
+
+
 ### 2. Singleton Pattern
 Ensures that a class has only one instance and provides a global point of access to that instance.
 
